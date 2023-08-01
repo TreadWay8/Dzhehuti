@@ -1,4 +1,4 @@
-    #Version 1 Correct
+    #Version 3 Correct
 file = open('Matrix/matrix.txt', 'r')
 file_int = []
     #Work Array
