@@ -1,0 +1,47 @@
+    # Import bibl
+import json
+import discord
+from discord.ext import commands
+    #token your bot
+TOKEN = 'MTEzMDQzMTA2MTE2ODUwMDgwNw.G8rQbp.isWvTazzw68mbN0YLCSQQHCqDGb7fdUklI5elw'
+    #set prefix and intents
+intents=discord.Intents.all()
+bot = commands.Bot(command_prefix='/', intents=intents)
+    #info 
+@bot.command()
+async def info(ctx):
+    await ctx.send('/github - Ссылка на мой GitHub аккаунт')
+    await ctx.send('/discord - Ссылка на мой Discord сервер')
+    #link to my github
+@bot.command()
+async def github(ctx):
+    await ctx.send('GitHub - https://github.com/Fawzer')
+    #link discord server
+@bot.command()
+async def discord(ctx):
+    await ctx.send('Discord Server  - https://discord.gg/48599aTPtF')
+    #kick members
+@bot.command()
+async def kick(ctx, member: discord.Member, reason=None):
+    if ctx.author.guild_permissions.kick_members:
+        await member.kick(reason=reason)
+        await ctx.send(f"{member.mention} был кикнут с сервера.")
+    else:
+        await ctx.send("У вас нет разрешения на кик участников.")
+    #ban members
+@bot.command()
+async def ban(ctx, member: discord.Member, reason=None):
+    if ctx.author.guild_permissions.ban_members:
+        await member.ban(reason=reason)
+        await ctx.send(f"{member.mention} был забанен на сервере.")
+    else:
+        await ctx.send("У вас нет разрешения на бан участников.")
+    #clear chat
+@bot.command()
+async def clear(ctx, amount: int):
+    if ctx.author.guild_permissions.manage_messages:
+        await ctx.channel.purge(limit=amount + 1)
+    else:
+        await ctx.send("У вас нет разрешения на очистку сообщений.")
+
+bot.run(TOKEN)
