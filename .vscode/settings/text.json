@@ -1,0 +1,27 @@
+{
+    "explorer.confirmDelete": false,
+    "git.openRepositoryInParentFolders": "never",
+    "workbench.colorTheme": "ceb8c11f-f736-420b-962b-fc0db26b3708",
+    "git.autofetch": true,
+    "editor.minimap.enabled": false,
+    "cSpell.userWords": [
+        "Создаем",
+        "autofetch",
+        "bestaudio",
+        "CYEH",
+        "Eblifb",
+        "Gjfa",
+        "Krunker",
+        "Monocraft",
+        "postprocessors",
+        "pytube",
+        "Qhxee"
+    ],
+    "editor.fontFamily": "FireCode-Retina",
+    "editor.fontLigatures": true,
+    "files.autoSave": "onWindowChange",
+    "editor.guides.bracketPairs": true,
+    "terminal.integrated.fontFamily": "monospace",
+    "editor.fontSize": 14.4
+    
+}

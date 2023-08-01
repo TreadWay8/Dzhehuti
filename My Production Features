@@ -26,4 +26,5 @@ def my_date():
     current_date = datetime.now().date()
     print(current_date)
 
+print("+rep")
 #Consolas, 'Courier New', monospace
