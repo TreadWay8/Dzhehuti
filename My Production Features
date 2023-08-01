@@ -27,4 +27,3 @@ def my_date():
     print(current_date)
 
 print("+rep")
-#Consolas, 'Courier New', monospace
