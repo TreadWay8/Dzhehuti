@@ -1,7 +1,7 @@
-    #Version 3 not correctly
+    #Version 1 Correct
 file = open('Matrix/matrix.txt', 'r')
 file_int = []
-
+    #Work Array
 for line in file:
     t = []
     for i in line:
@@ -11,14 +11,12 @@ for line in file:
         i_int += 1
         t.append(i_int)
     file_int.append(t)
-
+    #Plus 1 
 for i in file_int:
     u = ""
     for g in i:
         u += str(g) + " "
     print(u)
 
-
-
-
-# print(file_int)
+    #Print Result
+print(file_int)
