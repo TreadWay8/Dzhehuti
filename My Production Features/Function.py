@@ -1,5 +1,7 @@
+    # Importing The Libraries
 from datetime import datetime
-    #Avg Int
+
+    # AVG
 def avg(some_list):
     size = len(some_list)
     summa = 0
@@ -7,21 +9,24 @@ def avg(some_list):
         summa = summa + some_list[a]
     average = summa / size
     return average
-    #Min Int
+
+    # MIN
 def my_min(a):
     mini = a[0]
     for i in range(1, len(a)):
         if a[i] < mini:
             mini = a[i]
     return mini
-    #Max Int
+
+    # MAX
 def my_max(bb):
     maxi = bb[0]
     for i in range(1, len(bb)):
         if bb[i] > maxi:
             maxi = bb[i]
     return maxi
-    #Date In Real Life
+
+    # DATE
 def my_date():
     current_date = datetime.now().date()
     print(current_date)

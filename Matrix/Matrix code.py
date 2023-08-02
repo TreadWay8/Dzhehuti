@@ -11,7 +11,7 @@ for line in file:
         i_int += 1
         t.append(i_int)
     file_int.append(t)
-    #Plus 1 
+    # Plus 1 
 for i in file_int:
     u = ""
     for g in i:
