@@ -1,3 +1,9 @@
+    # Как Бобавить Функци В Другую Папку
+# import sys, os
+# sys.path.append(os.path.abspath('My_Production_Features'))
+# import my_fun
+# my_fun.timer()
+
     # Импорт Библиотек
 from datetime import datetime
 import time
@@ -42,3 +48,4 @@ def timer():
     fun()
     timetaken = end_time - start_time
     print("Your program takes: ", timetaken) 
+

@@ -11,12 +11,11 @@ for line in file:
         i_int += 1
         t.append(i_int)
     file_int.append(t)
-    # Плюсуем 1
+    # Формировка Таблицы
 for i in file_int:
     u = ""
     for g in i:
         u += str(g) + " "
     print(u)
 
-    #Print Result
 print(file_int)
