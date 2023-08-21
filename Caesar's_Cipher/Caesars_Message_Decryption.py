@@ -1,4 +1,7 @@
     # Почти одинкаовый код только в функции [+] поменялся на [-]
+print("╔╦╦╦═╦╗╔═╦═╦══╦═╗")
+print("║║║║╩╣╚╣═╣║║║║║╩╣")
+print("╚══╩═╩═╩═╩═╩╩╩╩═╝")
 Alphabet_EU =  'ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZ'
 Alphabet_RU = 'АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ'
 Bias = int(input('Encryption step: '))

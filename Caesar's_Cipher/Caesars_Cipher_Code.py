@@ -1,4 +1,7 @@
     # Создание Переменных 
+print("╔╦╦╦═╦╗╔═╦═╦══╦═╗")
+print("║║║║╩╣╚╣═╣║║║║║╩╣")
+print("╚══╩═╩═╩═╩═╩╩╩╩═╝")
 Alphabet_EU =  'ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZ'
 Alphabet_RU = 'АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ'
 Bias = int(input('Encryption step: '))

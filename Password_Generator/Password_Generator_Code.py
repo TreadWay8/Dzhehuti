@@ -3,8 +3,12 @@ import string
 import random
 
     # Функция Которая Открывает Файл И Записывает Его В Консоль
-PASSWORD = open("Password Generator/password.txt", "w+")
+PASSWORD = open("Password_Generator/password.txt", "w+")
 PASSWORD.truncate()
+
+print("╔╦╦╦═╦╗╔═╦═╦══╦═╗")
+print("║║║║╩╣╚╣═╣║║║║║╩╣")
+print("╚══╩═╩═╩═╩═╩╩╩╩═╝")
 
     # Функция Которая Генерирует Пароль И Записывает Его В Фай
 def generate_password(length):
