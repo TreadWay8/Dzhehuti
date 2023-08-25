@@ -155,6 +155,8 @@
     "python.analysis.extraPaths": [
         "./My_Production_Features"
     ],
+    "C_Cpp.default.compilerPath": "c:\\Users\\Admin\\Desktop\\Dzhehuti\\Console3D\\ConsoleRayTracing.cpp",
+    "C_Cpp.errorSquiggles": "disabled",
     
 }
 

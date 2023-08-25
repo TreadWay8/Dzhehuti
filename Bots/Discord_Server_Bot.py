@@ -2,7 +2,7 @@
 import discord
 from discord.ext import commands
     # Токен Бота 
-TOKEN = 'MTEzMDQzMTA2MTE2ODUwMDgwNw.G8rQbp.isWvTazzw68mbN0YLCSQQHCqDGb7fdUklI5elw'
+TOKEN = 'MTEzMDQzMTA2MTE2ODUwMDgwNw.GZu0Ao.ZsjM51NhIizaBVZoCoa9uYmGw-Jj-2e78g10hw'
     #Set Prefix And Intents
 intents=discord.Intents.all()
 bot = commands.Bot(command_prefix='/', intents=intents)
