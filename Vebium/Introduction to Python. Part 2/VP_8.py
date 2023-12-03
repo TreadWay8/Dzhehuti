@@ -1,0 +1,2 @@
+a = "sjkdlfhsakhfksadf0y0298374hdksjlafhsakdjf780321y4807dhsajklfsahdfsha013274hdsafkljhsadjfkl20437sdkjlafhskadjfh70824136dsajklfhsakdlfhj08721y34dsjkalfhskadljfh087213y4sdajkflhsdkfljhsdahfk"
+print (a.replace("7", "1488"))

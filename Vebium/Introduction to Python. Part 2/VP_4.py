@@ -1,0 +1,2 @@
+a = "jksadhfklsadhfksahfsadnyfdsaf0safds0afnsa0dfuysa0dfsaydfnsa0dfasd0fsadfu0q2364120402013ndsyfdas0f0s867xn0123dys0f6sdafsandf0610"
+print(a.count("0"))
